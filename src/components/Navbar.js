@@ -11,7 +11,7 @@ export default function Navbar(props) {
         className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
       >
         <div className="container-fluid">
-          <a className="navbar-brand mx-2" href="#">
+          <a className="navbar-brand mx-2" href="https://muhammad-anas-3.github.io/textutils/">
             {props.title}
           </a>
           {/* below switch is for light and dark mode */} 
